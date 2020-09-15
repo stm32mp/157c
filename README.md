@@ -52,7 +52,6 @@ make all_stm32mp1 CUSTOM_MOD_FILTER_OUT="jtsn-wm8960" && sudo make install_stm32
 sudo sh -c "echo uboot_overlay_addr0=/lib/firmware/stm32mp1-seeed-ap6236-overlay.dtbo >> /boot/uEnv.txt"
 sudo reboot
 ```
-and then repeat "connmanctl" steps.
 10.Using Seeed Grove style to control GPIO.
 ```bash
 git clone https://github.com/Seeed-Studio/seeed-linux-dtverlays
