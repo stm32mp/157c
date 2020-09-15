@@ -31,10 +31,10 @@ sudo connmanctl
 9. Modify your repository location source by editing "/etc/apt/sources.list file.
 ```bash
 sudo apt install apt-transport-https ca-certificates
-sed -i '$a\deb https:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ buster main contrib non-free' /etc/apt/sources.list
-sed -i '$a\deb https:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ buster-updates main contrib non-free' /etc/apt/sources.list
-sed -i '$a\deb https:\/\/mirrors.tuna.tsinghua.edu.cn\/debian\/ buster-backports main contrib non-free' /etc/apt/sources.list
-sed -i '$a\deb https:\/\/mirrors.tuna.tsinghua.edu.cn\/debian-security buster\/updates main contrib non-free' /etc/apt/sources.list
+sed -i '$a\deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free' /etc/apt/sources.list
+sed -i '$a\deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free' /etc/apt/sources.list
+sed -i '$a\deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free' /etc/apt/sources.list
+sed -i '$a\deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free' /etc/apt/sources.list
 ```
 9. Update your repository and install some useful packages.
 ```bash
