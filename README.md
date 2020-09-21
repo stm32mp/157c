@@ -68,6 +68,6 @@ sudo gpioinfo
 ``` 
 ## TODO 
 1. I2C OLED 
-2. PWM
-3. Dim LED
+2. PWM (DONE)
+3. Dim LED (DONE)
 4. SPI
